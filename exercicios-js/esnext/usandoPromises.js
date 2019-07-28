@@ -42,3 +42,4 @@ Promise.all([getTurma('A'), getTurma('B'), getTurma('C')])
     .catch(e => console.log(e.message))
 
 getTurma('D').catch(e => console.log(e.message))
+
